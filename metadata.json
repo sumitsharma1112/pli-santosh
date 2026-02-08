@@ -1,0 +1,7 @@
+{
+  "name": "PLI Santosh Premium Calculator",
+  "description": "Professional PLI Santosh Calculator with high-fidelity Gemini Live Voice Assistant, autonomous data entry, and precise premium calculations.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
