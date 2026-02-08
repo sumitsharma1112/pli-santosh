@@ -92,7 +92,7 @@ const App: React.FC = () => {
     }
   }, [validMaturityOptions, dob, maturityAge]);
 
-  // Provide current state to the session instruction
+  // Provide current state to the session instructionnew
   const stateRef = useRef({ dob, sumAssured, maturityAge, currentPliAge, validMaturityOptions });
   useEffect(() => {
     stateRef.current = { dob, sumAssured, maturityAge, currentPliAge, validMaturityOptions };
@@ -249,7 +249,7 @@ const App: React.FC = () => {
 
   const startAssistant = async () => {
     try {
-      const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+      const ai = new GoogleGenAI({ apiKey:AIzaSyAaOSp5Fptk3qhEjlsj5kUbZnfj-GQSYS0});
       setIsAssistantActive(true);
       setAssistantStatus('Initializing...');
       
